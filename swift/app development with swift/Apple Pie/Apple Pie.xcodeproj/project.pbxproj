@@ -12,6 +12,7 @@
 		5EEDE8C92081BD9B004E9FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDE8C72081BD9B004E9FBC /* Main.storyboard */; };
 		5EEDE8CB2081BD9B004E9FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDE8CA2081BD9B004E9FBC /* Assets.xcassets */; };
 		5EEDE8CE2081BD9B004E9FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDE8CC2081BD9B004E9FBC /* LaunchScreen.storyboard */; };
+		5EEDE8D62081CD15004E9FBC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDE8D52081CD15004E9FBC /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5EEDE8CA2081BD9B004E9FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EEDE8CD2081BD9B004E9FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EEDE8CF2081BD9B004E9FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEDE8D52081CD15004E9FBC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		5EEDE8B72081BD9B004E9FBC = {
 			isa = PBXGroup;
 			children = (
+				5EEDE8D52081CD15004E9FBC /* Game.swift */,
 				5EEDE8C22081BD9B004E9FBC /* Apple Pie */,
 				5EEDE8C12081BD9B004E9FBC /* Products */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEDE8C62081BD9B004E9FBC /* ViewController.swift in Sources */,
+				5EEDE8D62081CD15004E9FBC /* Game.swift in Sources */,
 				5EEDE8C42081BD9B004E9FBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
